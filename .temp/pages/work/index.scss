@@ -1,0 +1,44 @@
+.work {
+  height: 100vh;
+  padding: 0 20px 0 10px;
+  .list {
+    height: 100vh;
+    .list-item {
+      display: flex;
+      flex-direction: column;
+      .img-list {
+        display: flex;
+        flex-wrap: wrap;
+        .img-box {
+          margin-left: 10px;
+          &:nth-child(3n + 1) {
+            margin-left: 0;
+          }
+          .img-inbox {
+            position: relative;
+            padding-top: 60%;
+            background-size: cover;
+            background-position: center;
+            // .img {
+            //   position: absolute;
+            //   width: 100%;
+            //   height: 100%;
+            //   left: 0;
+            //   top: 0;
+            // }
+          }
+        }
+      }
+
+      .introduce {
+        padding: 20px 0 20px 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      & + .list-item {
+        margin-top: 20px;
+      }
+    }
+  }
+}
