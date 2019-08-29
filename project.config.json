@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "taroApp",
   "description": "taroApp",
-  "appid": "touristappid",
+  "appid": "wx508363e1fd66c305",
   "setting": {
     "urlCheck": true,
     "es6": false,
